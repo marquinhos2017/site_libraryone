@@ -89,13 +89,14 @@ section p{
 #mais_acessados .container h2{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+
     font-size: 20px;
-    font-style: italic;
+    font-weight: 500;
     color: #00FF57;
 }
 
 #mais_acessados .container img{
-    width: 200px;
+   
     margin-top: 30px;
 }
 
@@ -151,7 +152,13 @@ form input,textarea,button{
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
-    border: 0;
+    border: 1;
+    border-color: #00FF57;
+    font-size: 16px;
+    color: #00FF57;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    border-radius: 20px;
 }
 
 form button{
@@ -167,6 +174,7 @@ section .container .pergunta{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
 font-weight: 600;
+color: #00FF57;
 }
 
 
